@@ -1,0 +1,162 @@
+/*1 диаграмма*/
+.diagram1 {
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    background: #00FF00;
+    position: relative;
+    overflow: hidden;
+}
+.diagram1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top:20px;
+    left:20px;
+    right:20px;
+    bottom:20px;
+    border-radius: 50%;
+    background: #121212;
+    z-index: 3;
+    opacity: 1;
+}
+.diagram1 .piece {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.diagram1 .piece::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.diagram1 .piece.left {
+    transform: rotate(0deg);
+    z-index: 2;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram1.over_50 .piece.left {
+    transform: rotate(180deg);
+}
+.diagram1 .piece.right {
+    transform: rotate(300deg);
+    z-index: 1;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram.over_50 .piece.right {
+    transform: rotate(360deg);
+}
+.diagram1 .left::before {
+    background: #fff;
+}
+.diagram.over_50 .left::before {
+    background: #00FF00;
+}
+.diagram1 .right::before {
+    background: #fff;
+}
+.diagram1 .text {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diagram1 .text b {
+    font-size: 72px;
+}
+.diagram1 .text span {
+    font-size: 16px;
+    display: block;
+}
+/*2 диаграмма*/
+.diagram2 {
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    background: #00FF00;
+    position: relative;
+    overflow: hidden;
+}
+.diagram2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top:20px;
+    left:20px;
+    right:20px;
+    bottom:20px;
+    border-radius: 50%;
+    background: #121212;
+    z-index: 3;
+    opacity: 1;
+}
+.diagram2 .piece {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.diagram2 .piece::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.diagram2 .piece.left {
+    transform: rotate(0deg);
+    z-index: 2;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram2.over_50 .piece.left {
+    transform: rotate(0deg);
+}
+.diagram2 .piece.right {
+    transform: rotate(360deg);
+    z-index: 1;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram2.over_50 .piece.right {
+    transform: rotate(360deg);
+}
+.diagram2 .left::before {
+    background: #fff;
+}
+.diagram.over_50 .left::before {
+    background: #00FF00;
+}
+.diagram2 .right::before {
+    background: #fff;
+}
+.diagram2 .text {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diagram2 .text b {
+    font-size: 72px;
+}
+.diagram2 .text span {
+    font-size: 16px;
+    display: block;
+}

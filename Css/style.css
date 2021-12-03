@@ -1,11 +1,17 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 body{font-family: "Vibur", sans-serif;
-  background-color: #121212;}
-.main{min-height:calc(100vh - 80px); width: 100%; color:white;}
-footer{height: 80px; color: white}
+  background-color: #121212; color: white;}
+.baner{min-height:100vh; width: 100%;}
+.main{min-height: 100%;}
+footer{height: 80px;padding: 50px 0;top:0;
+ 	left: 0;
+ 	margin-top: 5%;
+ 	width: 100%;
+ 	background: linear-gradient(90deg,transparent,#7CFC00);}
 .sign-wrap-2 {
     background: #121212;
     text-align: center;
@@ -25,6 +31,48 @@ footer{height: 80px; color: white}
       0 0 42px #00FF00,
       0 0 82px #00FF00;
 }
-.MyImage{width: 200px; height: 350px;}
-.Opisanie>li{display: inline-block; text-align: center;}
-.TextPortfolio{}
+.baner>.Center-Section{width: 55%; margin: 141px auto 0 auto;}
+.MyInfo-left{float: left; position: absolute;}
+.MyInfo-left>img{border-radius: 300px; width: 250px; height:350px;}
+.MyInfo-Right{float: right; width: 50%;text-align: center; text-shadow:
+	  0 0 5px #fff;
+      padding: 50px 0;
+     }
+.border{background:#fff; width: 70%;margin: 10px auto; padding: 1px;
+box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 34px #00FF00,
+      0 0 52px #00FF00;}
+      .border-40{background:#fff; width: 40%;margin: 10px auto; padding: 1px;box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 34px #00FF00,
+      0 0 52px #00FF00;}
+  .About-Me
+  { text-align: center;
+   text-shadow:
+	  0 0 5px #fff;
+	}
+ @media(max-width: 900px){
+ 	.MyInfo-left{padding: 50px 0;}
+ 	.MyInfo-left>img{width: 150px; height: 200px;}
+ }
+  @media(max-width: 700px){
+ 	.MyInfo-left{padding: 50px 0;}
+ 	.MyInfo-left>img{width: 100px; height: 150px;}
+ }
+ .social-network{width: 100%; text-align: center; margin-top: 3%;}
+ .social-network>.content-sn>ul>li{display: inline-block; text-decoration: none;}
+ .vk
+ {
+ 	background-color: #fff;
+ 	border-radius: 100px;
+   width: 100px;
+   height: 100px;
+ }
+ .text-center{text-align: center;}
+ .youtube{width: 140px; height: 100px;}
+ /*Тут круги*/
+
+.MySkils>.skils-content>ul>li{display: inline-block; margin: 0 20px;}
