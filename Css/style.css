@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{font-family: "Vibur", sans-serif;
+  background-color: #121212;}
+.main{min-height:calc(100vh - 80px); width: 100%; color:white;}
+footer{height: 80px; color: white}
+.sign-wrap-2 {
+    background: #121212;
+    text-align: center;
+    padding: 60px 20px;
+}
+.sign-wrap-2 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #00FF00,
+      0 0 82px #00FF00;
+}
+.MyImage{width: 200px; height: 350px;}
+.Opisanie>li{display: inline-block; text-align: center;}
+.TextPortfolio{}
