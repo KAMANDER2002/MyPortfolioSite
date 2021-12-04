@@ -33,7 +33,7 @@ footer{height: 80px;padding: 50px 0;top:0;
 }
 .baner>.Center-Section{width: 55%; margin: 141px auto 0 auto;}
 .MyInfo-left{float: left; position: absolute;}
-.MyInfo-left>img{border-radius: 300px; width: 250px; height:350px;}
+.MyInfo-left>img{border-radius: 300px; width: 300px; height:300px;}
 .MyInfo-Right{float: right; width: 50%;text-align: center; text-shadow:
 	  0 0 5px #fff;
       padding: 50px 0;
@@ -57,10 +57,16 @@ box-shadow:
  @media(max-width: 900px){
  	.MyInfo-left{padding: 50px 0;}
  	.MyInfo-left>img{width: 150px; height: 200px;}
+    .contacts>.contacts-left{font-size: 14px;}
+ 	.contacts>.contacts-right{font-size: 14px;}
+ 	   }
  }
   @media(max-width: 700px){
  	.MyInfo-left{padding: 50px 0;}
  	.MyInfo-left>img{width: 100px; height: 150px;}
+ 	.contacts>.contacts-left{font-size: 10px;}
+ 	.contacts>.contacts-right{font-size: 10px;}
+
  }
  .social-network{width: 100%; text-align: center; margin-top: 3%;}
  .social-network>.content-sn>ul>li{display: inline-block; text-decoration: none;}
@@ -73,6 +79,14 @@ box-shadow:
  }
  .text-center{text-align: center;}
  .youtube{width: 140px; height: 100px;}
- /*Тут круги*/
 
 .MySkils>.skils-content>ul>li{display: inline-block; margin: 0 20px;}
+.my-potfolio>ul>li>img{height: 250px; width: 250px; border-radius: 50px;}
+.my-potfolio>ul>li{display: inline-block; margin:20px 20px;}
+.Education>ul>li>img{height: 250px; width: 250px; border-radius: 50px;}
+.Education>ul>li{display: inline-block; margin:20px 20px;}
+.contacts{width: 60%; margin: 141px auto 0 auto;}
+.contacts-left{ float: left; position: absolute; width: 30%;text-align: center;text-shadow:
+	  0 0 5px #fff; font-size: 25px;}
+.contacts-right{float: right; width: 60%;text-align: center; text-shadow:
+	  0 0 5px #fff; font-size: 25px;}
