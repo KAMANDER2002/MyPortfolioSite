@@ -54,19 +54,34 @@ box-shadow:
    text-shadow:
 	  0 0 5px #fff;
 	}
+	
  @media(max-width: 900px){
  	.MyInfo-left{padding: 50px 0;}
- 	.MyInfo-left>img{width: 150px; height: 200px;}
+ 	.MyInfo-left>img{width: 200px; height: 200px;}
     .contacts>.contacts-left{font-size: 14px;}
  	.contacts>.contacts-right{font-size: 14px;}
+ 	h1{
+ 		font-size: 20pt;
  	   }
+ 	}
  }
   @media(max-width: 700px){
  	.MyInfo-left{padding: 50px 0;}
- 	.MyInfo-left>img{width: 100px; height: 150px;}
+ 	.MyInfo-left>img{width: 100px; height: 100px;}
+ 	.contacts{width: 80%; margin: 141px auto 0 auto;}
+ 	.contacts>.contacts-left{font-size: 14px;}
+ 	.contacts>.contacts-right{font-size: 14px;}
+    
+ }
+ @media(max-width: 500px){
+ 	.baner>.Center-Section{width: 90%; margin: 100px auto 0 auto;}
+ 	.MyInfo-left>img{width: 100px; height: 100px;}
+ 	.contacts{width: 100%; margin: 141px auto 0 auto;}
  	.contacts>.contacts-left{font-size: 10px;}
  	.contacts>.contacts-right{font-size: 10px;}
-
+   h1{
+ 		font-size: 15pt;
+ 	   }
  }
  .social-network{width: 100%; text-align: center; margin-top: 3%;}
  .social-network>.content-sn>ul>li{display: inline-block; text-decoration: none;}
